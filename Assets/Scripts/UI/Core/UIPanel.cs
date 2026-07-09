@@ -134,7 +134,7 @@ namespace XUUI.UI
                     var loaded = package.Get<LuaTable>("loaded");
                     if (loaded != null)
                     {
-                        loaded.Set(LuaModulePath, null);
+                        loaded.Set<string, object>(LuaModulePath, null);
                     }
                 }
             }
