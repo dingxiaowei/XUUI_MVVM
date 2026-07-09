@@ -12,8 +12,8 @@ return {
                 data.message = 'Password must be at least 6 characters!'
             else
                 data.message = 'Registration successful! You can now login.'
-                CS.Login.CloseRegisterPanel()
-                package.loaded['register'] = nil
+                CS.XUUI.UI.RegisterPanel.CloseSelf()
+                package.loaded['UI.Panels.RegisterPanel'] = nil
             end
         end,
     }

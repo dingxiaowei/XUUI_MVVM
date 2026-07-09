@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"d:/Study/GitHub/XUUI_MVVM/Assets/Scripts/UI/Core\")",
+      "Bash(mkdir -p \"d:/Study/GitHub/XUUI_MVVM/Assets/Scripts/UI/Panels\")",
+      "Bash(mkdir -p \"d:/Study/GitHub/XUUI_MVVM/Assets/Scripts/UI/Views\")",
+      "Bash(mkdir -p \"d:/Study/GitHub/XUUI_MVVM/Assets/Resources/UI/Panels\")",
+      "Bash(mkdir -p \"d:/Study/GitHub/XUUI_MVVM/Assets/Resources/UI/Views\")"
+    ]
+  }
+}
