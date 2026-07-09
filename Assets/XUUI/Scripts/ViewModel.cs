@@ -173,6 +173,9 @@ namespace XUUI
 
             if (disposeLuaEnv)
             {
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
+
                 luaEnv.Dispose();
             }
 

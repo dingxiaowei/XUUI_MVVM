@@ -13,15 +13,18 @@ public class Helloworld : MonoBehaviour
                     info1 = {
                         name = 'John',
                     },
+                    --messageData = ''
                 },
                 computed = {
                     message = function(data)
                         return 'Hello ' .. data.info1.name .. '!'
+                        --return data.messageData
                     end
                 },
                 commands = {
                     click = function(data)
-                        print(data.info.name)
+                        print(data.info1.name)
+                        --data.messageData='message' -- commands事件只改变数据，UI是由data数据改变驱动消耗
                     end,
                 },
             }
