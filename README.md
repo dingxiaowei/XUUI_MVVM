@@ -2,6 +2,10 @@
 
 基于xLua的轻量级UI框架。
 
+## 详细教程
+https://blog.csdn.net/dingxiaowei2013
+
+
 ## 两大核心能力
 
 * 支持MVVM的单/双向绑定
